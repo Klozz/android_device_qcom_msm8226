@@ -39,8 +39,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     system/bluetooth/data/main.le.conf:system/etc/bluetooth/main.conf
 
-#fstab.qcom
-PRODUCT_PACKAGES += fstab.qcom
 #wlan driver
 PRODUCT_COPY_FILES += \
     device/qcom/msm8226/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
